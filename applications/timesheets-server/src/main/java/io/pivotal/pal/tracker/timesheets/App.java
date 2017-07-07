@@ -15,6 +15,9 @@ import java.util.TimeZone;
 =======
 
 @EnableCircuitBreaker
+<<<<<<< HEAD
+>>>>>>> 9f324e1... Enable circuit breaker
+=======
 >>>>>>> 9f324e1... Enable circuit breaker
 @EnableEurekaClient
 @EnableCircuitBreaker
