@@ -11,6 +11,11 @@ import org.springframework.web.client.RestOperations;
 
 import java.util.TimeZone;
 
+<<<<<<< HEAD
+=======
+
+@EnableCircuitBreaker
+>>>>>>> 9f324e1... Enable circuit breaker
 @EnableEurekaClient
 @EnableCircuitBreaker
 @SpringBootApplication

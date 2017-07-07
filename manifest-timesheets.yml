@@ -13,4 +13,8 @@ applications:
   services:
   - tracker-timesheets-database
   - tracker-service-registry
+<<<<<<< HEAD
   - tracker-circuit-breaker-dashboard
+=======
+  - tracker-circuit-breaker-dashboard
+>>>>>>> 9f324e1... Enable circuit breaker
