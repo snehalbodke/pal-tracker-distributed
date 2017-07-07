@@ -12,17 +12,9 @@ import org.springframework.web.client.RestOperations;
 import java.util.TimeZone;
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 9f324e1... Enable circuit breaker
 @EnableCircuitBreaker
 @EnableEurekaClient
->>>>>>> 9f324e1... Enable circuit breaker
 @SpringBootApplication
-@EnableEurekaClient
-@EnableCircuitBreaker
 @ComponentScan({"io.pivotal.pal.tracker.allocations", "io.pivotal.pal.tracker.restsupport"})
 public class App {
 
@@ -33,8 +25,8 @@ public class App {
 
     @Bean
     ProjectClient projectClient(
-        RestOperations restOperations,
-        @Value("${registration.server.endpoint}") String registrationEndpoint
+            RestOperations restOperations,
+            @Value("${registration.server.endpoint}") String registrationEndpoint
     ) {
         return new ProjectClient(restOperations, registrationEndpoint);
     }

@@ -14,7 +14,10 @@ import java.util.TimeZone;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 9f324e1... Enable circuit breaker
 =======
 >>>>>>> 9f324e1... Enable circuit breaker
 @EnableCircuitBreaker
